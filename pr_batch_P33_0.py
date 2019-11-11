@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Peter Kner
+"""
 import numpy as N
 import matplotlib.pyplot as P
 import tifffile as T
