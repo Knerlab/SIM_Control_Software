@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar  3 12:22:33 2020
-updated from old code
-@author: rl74173
+Shack-Hartmann Wavefront Reconstruction
+@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 import numpy as N
