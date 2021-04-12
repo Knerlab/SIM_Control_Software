@@ -1,3 +1,7 @@
+"""
+@copywrite, Peter Kner, University of Georgia, 2019
+"""
+
 basepath = 'C:\\Documents and Settings\\kner\\My Documents\\python\\'
 import os,sys,time
 try:
