@@ -1,3 +1,7 @@
+"""
+@copywrite, Peter Kner, University of Georgia, 2019
+"""
+
 import numpy as N
 import matplotlib.pyplot as P
 import tifffile as T
