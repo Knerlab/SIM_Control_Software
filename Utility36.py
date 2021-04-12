@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+@copywrite, Peter Kner, University of Georgia, 2019
 """
 
 import numpy as np
