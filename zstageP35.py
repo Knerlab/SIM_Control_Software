@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+@copywrite, Peter Kner, University of Georgia, 2019
+"""
 
 import time
 from daq_p35 import daq35 as daq
