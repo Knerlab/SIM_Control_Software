@@ -5,6 +5,8 @@ python 3.3 version 2017
 
 @author: Peter Kner
 Zernikes
+
+@copywrite, Peter Kner, University of Georgia, 2019
 """
 
 import numpy as N
