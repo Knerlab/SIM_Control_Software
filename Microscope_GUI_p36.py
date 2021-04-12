@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug 10 20:53:10 2020
-
-@author: linruizhe
+The GUI for microscope control
+@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 import sys, time, os
