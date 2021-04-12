@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-An example of running the 3D structured illumination microscopy image reconstruction codes
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+Created on Tue Mar  3 12:22:33 2020
+updated from old code
+@author: rl74173
 """
 
 import numpy as N
@@ -225,6 +226,58 @@ class Wavefront_Reconstruction():
         gradxe[:, ny - 1] = -1.0 * gradx[:, :(ny - 1)].sum(1)
         gradye[nx - 1, :] = -1.0 * grady[:(nx - 1), :].sum(0)
         return gradxe, gradye
+        
+    # def recon_hudgins(self,gradx,grady):
+    #     ''' wavefront reconstruction from gradients Hudgins Geometry, Poyneer 2002 '''
+    #     sx = fft2(fftshift(gradx))
+    #     sy = fft2(fftshift(grady))
+    #     numx = self.numx
+    #     numy = self.numy
+    #     den = self.den
+    #     den[0,0] = 1.e-6
+    #     self.sw = (numx*sx + numy*sy)/den
+    #     self.sw[0,0] = 0.0
+    #     #self.sw[nx/2,nx/2] = 0.0
+    #     phi = fftshift(ifft2(self.sw)).real
+    #     return phi
+    
+    # def hudgins_extend_mask0(self,gradx,grady):
+    #     ''' extension tecchnique Poyneer 2002 '''
+    #     nx = self.nx
+    #     ny = self.ny
+    #     if (nx % 2 == 0): #even
+    #         mx = nx/2
+    #     else: #odd
+    #         mx = (nx+1)/2        
+    #     for jj in range(int(nx)):
+    #         for ii in range(int(mx),int(nx)):
+    #             if grady[jj,ii] == (0.0):
+    #                 grady[jj,ii] = grady[jj,ii-1]
+    #             if gradx[ii,jj] == (0.0):
+    #                 gradx[ii,jj] = gradx[ii-1,jj]
+    #         for ii in range(int(mx),int(-1),int(-1)):
+    #             if grady[jj,ii] == (0.0):
+    #                 grady[jj,ii] = grady[jj,ii+1]
+    #             if gradx[ii,jj] == (0.0):
+    #                 gradx[ii,jj] = gradx[ii+1,jj]
+    #     gradx[:,nx-1] = -gradx[:,:(nx-1)].sum(1)
+    #     grady[nx-1,:] = -grady[:(nx-1),:].sum(0)
+    #     return gradx,grady    
+        
+    # def hudgins_prep(self):
+    #     nx = self.nx
+    #     ny = self.ny
+    #     k,l = N.meshgrid(N.arange(ny),N.arange(nx))
+    #     self.numx = (N.exp(-2j*pi*k/nx)-1)
+    #     self.numy = (N.exp(-2j*pi*l/nx)-1)
+    #     self.den = 4*(N.sin(pi*k/nx)**2 + N.sin(pi*l/nx)**2)
+    #     return True
+    
+    # def suback(self,img):
+    #     thresh  = threshold_otsu(img)
+    #     binary = img > thresh
+    #     imgsub = img * binary
+    #     return imgsub
     
     def suback(self,img):
         thresh  = threshold_otsu(img)

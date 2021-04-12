@@ -8,8 +8,8 @@ import os, sys
 import numpy as N
 #import fftfuncs as F
 import tifffile as T
-import zernike
-from scipy.misc import factorial as fac
+import Zernike36 as zernike
+from scipy.special import factorial as fac
 from operator import itemgetter
 
 Nzern = 37 
