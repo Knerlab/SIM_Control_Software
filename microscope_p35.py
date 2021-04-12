@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug 10 20:53:10 2020
+Microscope control codes
 
-@author: linruizhe
+@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 datapath = r'C:/Users/Public/Documents/data'
