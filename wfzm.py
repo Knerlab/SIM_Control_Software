@@ -2,7 +2,7 @@
 """
 Created on Tue Apr  7 09:58:54 2020
 
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+@copywrite, Peter Kner, University of Georgia, 2019
 """
 
 import circle as cz
