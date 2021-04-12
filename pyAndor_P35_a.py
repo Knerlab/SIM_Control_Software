@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Andor class for use with python 2.7
-using ctypes
-
+AndorCCD cameare control
+@copywrite, Peter Kner, University of Georgia, 2019
 """
+
 import numpy as N
 import ctypes as ct
 #import fftfuncs as F
