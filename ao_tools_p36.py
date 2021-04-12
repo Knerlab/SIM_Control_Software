@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 routines for ao optimization, etc.
-stuff that was formerly in dm_setup
-
-updated functions on 03/04/2020 by ruizhe
-
-Created on Thu Feb  9 16:46:24 2017
-@author: kner
+@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
+
 import time, os
 import tifffile as tf
 import numpy as N
