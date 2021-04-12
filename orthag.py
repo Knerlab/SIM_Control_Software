@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct 29 11:43:35 2020
-
-@author: rl74173
+@copywrite, Peter Kner, University of Georgia, 2019
 """
-
 
 import circle as cz
 import pylab
