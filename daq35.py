@@ -3,6 +3,8 @@
 Created on Fri Aug 16 13:47:11 2013
 
 @author: kayvanf
+
+@copywrite, Peter Kner, University of Georgia, 2019
 """
 import PyDAQmx as daq
 #from PyDAQmx import Task
