@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  2 22:16:24 2020
-
-@author: linruizhe
-"""
-
 import numpy
 
 def circle(radius, size, circle_centre=(0, 0), origin="middle"):
