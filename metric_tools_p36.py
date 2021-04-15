@@ -2,7 +2,7 @@
 """
 metric values calculation
 11/06/2018 Ruizhe Lin
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+@copyright, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 import numpy as np

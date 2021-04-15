@@ -1,7 +1,7 @@
 ''' orthonormal vector polynomials on unit circle
     Zhao and Burge, Optics Express 15(26),p. 18014 (2007) '''
 """
-@copywrite, Peter Kner, University of Georgia, 2019
+@copyright, Peter Kner, University of Georgia, 2019
 """
 
 import os, sys

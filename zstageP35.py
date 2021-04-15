@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@copywrite, Peter Kner, University of Georgia, 2019
+@copyright, Peter Kner, University of Georgia, 2019
 """
 
 import time

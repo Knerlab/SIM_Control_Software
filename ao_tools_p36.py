@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 routines for ao optimization, etc.
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+@copyright, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 import time, os

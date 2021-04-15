@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Aug 16 13:47:11 2013
+Code for controlling the NI DAQ board
+@copyright, Peter Kner, University of Georgia, 2019
 
-@author: kayvanf
-
-@copywrite, Peter Kner, University of Georgia, 2019
 """
 import PyDAQmx as daq
 #from PyDAQmx import Task

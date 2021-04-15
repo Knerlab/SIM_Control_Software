@@ -1,5 +1,5 @@
 """
-@copywrite, Peter Kner, University of Georgia, 2019
+@copyright, Peter Kner, University of Georgia, 2019
 """
 
 basepath = 'C:\\Documents and Settings\\kner\\My Documents\\python\\'

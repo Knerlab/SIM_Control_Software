@@ -2,7 +2,7 @@
 Python code to control the QXGA SLM
 pythn 3.6  02/20/2018 Ruizhe Lin
 
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+@copyright, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 import ctypes as ct

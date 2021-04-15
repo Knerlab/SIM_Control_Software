@@ -2,7 +2,7 @@
 """
 Microscope control codes
 
-@copywrite, Ruizhe Lin and Peter Kner, University of Georgia, 2019
+@copyright, Ruizhe Lin and Peter Kner, University of Georgia, 2019
 """
 
 datapath = r'C:/Users/Public/Documents/data'

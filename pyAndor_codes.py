@@ -3,6 +3,7 @@
 Created on Mon Aug 12 12:54:39 2013
 
 @author: kner
+@copyright Peter Kner, University of Georgia 2013
 """
 
 DRV_ERROR_CODES = 20001

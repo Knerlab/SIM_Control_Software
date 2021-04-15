@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-AndorCCD cameare control
-@copywrite, Peter Kner, University of Georgia, 2019
+AndorCCD camera control
+@copyright, Peter Kner, University of Georgia, 2019
 """
 
 import numpy as N

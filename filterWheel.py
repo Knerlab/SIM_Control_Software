@@ -4,7 +4,7 @@ Created on Mon Feb 24 21:01:25 2014
 
 @author: Kayvan Forouhesh
 
-@copywrite, Peter Kner, University of Georgia, 2019
+@copyright, Kayvan Tehrani and Peter Kner, University of Georgia, 2019
 """
 
 import serial
